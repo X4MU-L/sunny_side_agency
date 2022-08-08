@@ -1,0 +1,9 @@
+.center-div {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	justify-content: center;
+	color: white;
+}

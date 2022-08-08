@@ -1,0 +1,15 @@
+nav {
+	display: flex;
+	align-items: center;
+	padding: 10px 15px;
+	justify-content: space-between;
+}
+.mobile_toggle {
+	display: none;
+}
+
+@media (max-width: 699px) {
+	.mobile_toggle {
+		display: flex;
+	}
+}
