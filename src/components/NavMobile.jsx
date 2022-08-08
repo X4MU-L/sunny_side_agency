@@ -5,7 +5,7 @@ function NavMobile({ nav_links }) {
 			<ul>
 				{nav_links.map((element) => (
 					<li key={element}>
-						<a href="#">{element}</a>
+						<span href="#">{element}</span>
 					</li>
 				))}
 			</ul>

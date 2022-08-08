@@ -28,14 +28,13 @@ div.nav_mobile:before {
 	border: 15px solid transparent;
 	border-color: transparent #fff #fff transparent;
 }
-div.nav_mobile a {
-	text-decoration: none;
+div.nav_mobile span {
 	padding: 10px 25px;
 	border-radius: 25px;
 	color: hsl(210, 4%, 67%);
 	transition: all 300ms ease-in-out;
 }
-div.nav_mobile a:hover {
+div.nav_mobile span:hover {
 	background-color: hsl(51, 100%, 49%);
 }
 @media (min-width: 699px) {

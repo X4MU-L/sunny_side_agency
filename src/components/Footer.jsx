@@ -24,9 +24,9 @@ function Footer({ socials, nav_links }) {
 					<ul>
 						{socials.map((icon) => (
 							<li key={icon.name}>
-								<a href="">
+								<span href="#">
 									<img src={icon.icon} alt={icon.name} />
-								</a>
+								</span>
 							</li>
 						))}
 					</ul>

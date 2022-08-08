@@ -4,7 +4,7 @@ function Nav({ nav_links }) {
 		<ul className="main_nav">
 			{nav_links.map((element) => (
 				<li key={element}>
-					<a href="#">{element}</a>
+					<span>{element}</span>
 				</li>
 			))}
 		</ul>

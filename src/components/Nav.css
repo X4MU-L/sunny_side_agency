@@ -13,18 +13,17 @@ ul.main_nav > * {
 .main_nav li {
 	display: flex;
 }
-ul.main_nav li a {
-	text-decoration: none;
+ul.main_nav li span {
 	color: white;
 	width: 80px;
-	display: flex;
+
 	padding: 10px 20px;
 	align-items: center;
 	border-radius: 20px;
-	justify-content: center;
+
 	transition: all 400ms ease-in-out;
 }
-ul.main_nav li a:hover {
+ul.main_nav li span:hover {
 	background-color: white;
 	color: hsl(212, 27%, 19%);
 	font-family: Fraunces;
